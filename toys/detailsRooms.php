@@ -6,7 +6,6 @@ include "Header.php"
 <html lang="zxx">
 <head>
     <title>Rooms and Meals</title>
-    <!--meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content=""/>
@@ -36,12 +35,8 @@ include "Header.php"
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 </head>
 <body>
-
-<!-- banner -->
 <div class="inner_page-banner one-img">
 </div>
-<!--//banner -->
-<!-- short -->
 <div class="using-border py-3">
     <div class="inner_breadcrumb  ml-4">
         <ul class="short_ls">
@@ -53,9 +48,6 @@ include "Header.php"
         </ul>
     </div>
 </div>
-<!-- //short-->
-<!--//banner -->
-<!--/shop-->
 <section class="banner-bottom py-lg-5 py-3">
     <div class="container">
         <div class="inner-sec-shop pt-lg-4 pt-3">
@@ -97,10 +89,6 @@ include "Header.php"
                             <input type="datetime-local" id="meeting-time"
                                    name="meeting-time" value="2019-06-12T19:30"
                                    min="2019-06-07T00:00" max="2020-06-14T00:00">
-
-
-
-
                         </div>
                     </div>
 
@@ -115,9 +103,6 @@ include "Header.php"
                                     <option value="null">3</option>
                                 </select>
                             </div>
-
-
-
                             <div class="color-quality-right">
                                 <h5>Single bed rooms :</h5>
                                 <select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
@@ -129,9 +114,6 @@ include "Header.php"
                             </div>
 
                         </div>
-
-
-
                     </div>
                     <div class="occasional">
                         <h5>Types :</h5>
@@ -143,12 +125,9 @@ include "Header.php"
                     </div>
                     <div class="occasion-cart">
                         <div class="toys single-item singlepage">
-                            <form action="#" method="post">
-                                <input type="hidden" name="cmd" value="_cart">
-                                <input type="hidden" name="add" value="2">
-                                <input type="hidden" name="toys_item" value="rooms">
-                                <input type="hidden" name="amount" value="15000.00">
-                                <button type="submit" class="toys-cart ptoys-cart add">
+                            <form method="post">
+
+                                <button type="submit">
                                     Send details
                                 </button>
                             </form>
@@ -157,79 +136,14 @@ include "Header.php"
 
                 </div>
                 <div class="clearfix"> </div>
-                <!--/tabs-->
-                <!--                <div class="responsive_tabs">-->
-                <!--                    <div id="horizontalTab">-->
-                <!--                        <ul class="resp-tabs-list">-->
-                <!--                            <li>Description</li>-->
-                <!--                            <li>Inquiries</li>-->
-                <!--                            <li>Information</li>-->
-                <!--                        </ul>-->
-                <!--                        <div class="resp-tabs-container">-->
-                <!--                            <!--/tab_one-->-->
-                <!--                            <div class="tab1">-->
-                <!--                                <div class="single_page">-->
-                <!--                                    <h6>Lorem ipsum dolor sit amet</h6>-->
-                <!--                                    <p>A true sanctuary of retro chic and understated elegance, Hotel Pledge 3 displays warmth with its modern architecture, imported fittings and cozy deluxe rooms, coupled with a service that's personal and discrete, without being intrusive.-->
-                <!--                                    </p>-->
-                <!--                                </div>-->
-                <!--                            </div>-->
-                <!--                            <!--//tab_one-->-->
-                <!--                            <div class="tab2">-->
-                <!--                                <div class="single_page">-->
-                <!--                                    <div class="bootstrap-tab-text-grids">-->
-                <!--                                        <div class="bootstrap-tab-text-grid">-->
-                <!--                                            <div class="bootstrap-tab-text-grid-left">-->
-                <!--                                                <img src="images/team1.png" alt=" " class="img-fluid">-->
-                <!--                                            </div>-->
-                <!--                                            <div class="bootstrap-tab-text-grid-right">-->
-                <!--                                                <ul>-->
-                <!--                                                    <li><a href="#">Admin</a></li>-->
-                <!--<!--                                                    <li><a href="#"><i class="fa fa-reply-all" aria-hidden="true"></i> Reply</a></li>-->-->
-                <!--                                                </ul>-->
-                <!--                                                <p>We ae always warmly welcome to our places. And we kindly request you to drop a comment about our service.-->
-                <!--                                                </p>-->
-                <!--                                            </div>-->
-                <!--                                            <div class="clearfix"> </div>-->
-                <!--                                        </div>-->
-                <!--                                        <div class="add-review">-->
-                <!--                                            <h4>add a Inquiry</h4>-->
-                <!--                                            <form action="#" method="post">-->
-                <!--                                                <div class="row">-->
-                <!--                                                    <div class="col-md-6">-->
-                <!--                                                        <input type="text" name="Name" required="" placeholder="Name ">-->
-                <!--                                                    </div>-->
-                <!--                                                    <div class="col-md-6">-->
-                <!--                                                        <input type="email" name="Email" required="" placeholder="Email ">-->
-                <!--                                                    </div>-->
-                <!--                                                </div>-->
-                <!--                                                <textarea name="Message" required="" placeholder="Message"></textarea>-->
-                <!--                                                <input type="submit" value="SEND">-->
-                <!--                                            </form>-->
-                <!--                                        </div>-->
-                <!--                                    </div>-->
-                <!--                                </div>-->
-                <!--                            </div>-->
-                <!--                            <div class="tab3">-->
-                <!--                                <div class="single_page">-->
-                <!--                                    <h6></h6>-->
-                <!--                                    <p>Prices are the average nightly price provided by our partners and may not include all taxes and fees. Taxes and fees that are shown are estimates only. Please see our partners for more details.-->
-                <!--                                    </p>-->
-                <!---->
-                <!--                                </div>-->
-                <!--                            </div>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--//tabs-->
+
             </div>
         </div>
     </div>
 </section>
 
 <script src="js/jquery-2.2.3.min.js"></script>
-<!-- newsletter modal -->
-<!-- cart-js -->
+
 <script src="js/minicart.js"></script>
 <script>
     toys.render();
@@ -244,8 +158,7 @@ include "Header.php"
         }
     });
 </script>
-<!-- //cart-js -->
-<!-- price range (top products) -->
+
 <script src="js/jquery-ui.js"></script>
 <script>
     //<![CDATA[
